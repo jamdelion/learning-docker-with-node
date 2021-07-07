@@ -59,3 +59,4 @@ jobs:
           heroku_email: ${{ secrets.HEROKU_EMAIL }}
           # The appname to use for deploying/updating
           heroku_app_name: test-docker-with-node
+          heroku_db_connection: ${{ secrets.HEROKU_DB }}
